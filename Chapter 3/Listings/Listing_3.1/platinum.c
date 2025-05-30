@@ -15,7 +15,7 @@ int main(void)
   scanf("%f", &weight);
   const float value = weight * (float)pt_price_per_kg;
 
-  printf("Your weight in platinum equivalent are it's %.2f\n", value);
+  printf("Your wei ght in platinum equivalent are it's %.2f\n", value);
 
   return EXIT_SUCCESS;
 }
