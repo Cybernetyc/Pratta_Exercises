@@ -2,6 +2,7 @@
  * pizza.c -- This program is used some constants, certain in relationship to pizza
  */
 
+#include <limits.h>
 #include <stdio.h>
 #include <stdlib.h>
 #define  PI (3.14159f)
