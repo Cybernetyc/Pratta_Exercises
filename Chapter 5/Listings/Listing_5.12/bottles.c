@@ -6,7 +6,7 @@
 int main(void)
 {
   int count = MAX + 1;
-
+  count ? 1 : -1;
   while (--count >= 0)
   {
     printf("%d bottles of spring water on the shelf, "
