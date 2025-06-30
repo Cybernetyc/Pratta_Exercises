@@ -10,16 +10,15 @@ int main(void)
 
   printf("Please enter the value of minutes:\n\n");
   printf("For quit input value <= 0\n");
-  scanf("%d", &input_minutes);
 
-  while (input_minutes > 0)
+  while (scanf("%d", &input_minutes) && input_minutes > 0)
   {
     hours = input_minutes / MIN_TO_HOUR;
     remaining_minutes = input_minutes % MIN_TO_HOUR;
     printf("Equivalent %d Hour : %d minutes\n\n", hours, remaining_minutes);
-    printf("Please enter the value of minutes:\n");
+
+    printf("Please enter the value of minutes:\n\n");
     printf("For quit input value <= 0\n");
-    scanf("%d", &input_minutes);
   }
   printf("Done!\n");
 
