@@ -7,8 +7,8 @@
 
 int main(void)
 {
-  int count = 0;      ///< loop counter
-  int sum   = 0;      ///< summary
+  int count = 0;      ///< Announce operators
+  int sum   = 0;
 
   printf("Enter a positive integer ( the value > 0 ):");
   scanf("%d", &count);
