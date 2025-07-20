@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <inttypes.h>  ///< Support portable types
-
 #define ARR_SIZE 100
 #define ARR_SIZE_SCANF "99"
 
