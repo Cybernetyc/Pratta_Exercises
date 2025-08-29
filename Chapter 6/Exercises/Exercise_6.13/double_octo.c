@@ -9,7 +9,7 @@ int main(void)
   int power = 1;
   for (int i = 0; i < ARR_SIZE; ++i){
     arr[i] = power;
-    power *= 2;
+    power <<= 1;
   }
 
   int print_counter = 0;
