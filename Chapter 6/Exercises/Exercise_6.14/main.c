@@ -27,4 +27,5 @@ int main(void)
     printf("%9.2f ", arr_2[i]);
 
   return EXIT_SUCCESS;
+
 }
